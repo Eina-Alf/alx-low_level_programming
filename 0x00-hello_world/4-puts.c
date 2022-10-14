@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 
  * main - Entry
@@ -16,7 +17,3 @@ int main(void)
 	return (0);
 
 }
-
-Footer
-
-© 2022 GitHu

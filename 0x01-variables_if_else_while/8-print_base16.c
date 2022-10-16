@@ -1,19 +1,23 @@
 #include <stdio.h>
 
 /**
-* main - prints all the numbers of base 16 in lowercase,
-* followed by a new line
+* main - Entry point
+*
 * Return: Always 0 (Success)
 */
 {
 int n;
-char ch;
 
-for (n = 48; n < 58; n++)
+for (n = 0; n < 16; n++)
 {
-putchar(n);
+	 if (n < 10)
 }
-putchar(ch);
+putchar('0' + n);
+}
+else
+{
+putchar(87 + n);
+}
 }
 putchar('\n');
 return (0);

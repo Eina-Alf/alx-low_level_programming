@@ -1,14 +1,13 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Fizz Buzz code
  *
  * Return: void
  */
-
 int main(void)
-
 {
+
 	int i = 1;
 
 	while (i <= 100)

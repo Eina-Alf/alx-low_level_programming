@@ -36,8 +36,9 @@ int wordcount(char *str)
 */
 void free_array(char **ar, int i)
 {
-	if (ar != NULL && i != 0)	{
-		while (i >= 0)			
+	if (ar != NULL && i != 0)
+	{
+		while (i >= 0)
 		{
 			free(ar[i]);
 			i--;
